@@ -1,0 +1,893 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F88989107D04470ACBEC2A8 /* Pods_consultplus_consultplusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D484B1AC09B143AA33D0113 /* Pods_consultplus_consultplusUITests.framework */; };
+		5408AFAD29CA638900B2795B /* MainActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5408AFAC29CA638900B2795B /* MainActivityView.swift */; };
+		5410043A29C889080012724B /* consultplusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5410043929C889080012724B /* consultplusApp.swift */; };
+		5410043C29C889080012724B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5410043B29C889080012724B /* ContentView.swift */; };
+		5410043E29C889090012724B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5410043D29C889090012724B /* Assets.xcassets */; };
+		5410044129C889090012724B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5410044029C889090012724B /* Preview Assets.xcassets */; };
+		5410044B29C889090012724B /* consultplusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5410044A29C889090012724B /* consultplusTests.swift */; };
+		5410045529C889090012724B /* consultplusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5410045429C889090012724B /* consultplusUITests.swift */; };
+		5410045729C889090012724B /* consultplusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5410045629C889090012724B /* consultplusUITestsLaunchTests.swift */; };
+		5429C60F29C8C289008BE8EC /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5429C60E29C8C289008BE8EC /* SignUpView.swift */; };
+		5429C61129C8C3F9008BE8EC /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5429C61029C8C3F9008BE8EC /* SignInView.swift */; };
+		5438A6072A16D76100BA2591 /* MyRdvUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5438A6062A16D76100BA2591 /* MyRdvUIView.swift */; };
+		5438A60B2A17218000BA2591 /* SplashScreenUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5438A60A2A17218000BA2591 /* SplashScreenUIView.swift */; };
+		54A8D9212A127F7200844D8A /* ConfirmRdvUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A8D9202A127F7200844D8A /* ConfirmRdvUIView.swift */; };
+		54AA452C29FA289C006ED6FF /* BookingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AA452B29FA289C006ED6FF /* BookingModel.swift */; };
+		54B8434729CB454C0027C2B0 /* UpdateProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B8434629CB454C0027C2B0 /* UpdateProfileView.swift */; };
+		54C718CF2A17B6C000D78311 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C718CE2A17B6C000D78311 /* Notification.swift */; };
+		54DA354F29C8CD9700AB1339 /* ForgetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DA354E29C8CD9700AB1339 /* ForgetPasswordView.swift */; };
+		54E1A0DA29F89A7C00823AE2 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 54E1A0D929F89A7C00823AE2 /* URLImage */; };
+		54E1A0DC29F89A7C00823AE2 /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = 54E1A0DB29F89A7C00823AE2 /* URLImageStore */; };
+		54EA463D29EE17400052527C /* HomeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EA463C29EE17400052527C /* HomeUIView.swift */; };
+		54EA463F29EE37F20052527C /* DoctorsListUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EA463E29EE37F20052527C /* DoctorsListUIView.swift */; };
+		54EA464129EE3D1F0052527C /* DoctorProfilUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EA464029EE3D1F0052527C /* DoctorProfilUIView.swift */; };
+		54EA464329EE4BD10052527C /* BookingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EA464229EE4BD10052527C /* BookingUIView.swift */; };
+		54F7757F29CA0A1500EA2EA7 /* ApiManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F7757E29CA0A1500EA2EA7 /* ApiManger.swift */; };
+		54F7758229CA0E4800EA2EA7 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F7758129CA0E4800EA2EA7 /* UserModel.swift */; };
+		54FA49622A04898400CD5335 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54FA49642A04898400CD5335 /* Localizable.strings */; };
+		63F2A9E39DEE2077D651358F /* Pods_consultplus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5788AF3192FF4C7C17DA1CA9 /* Pods_consultplus.framework */; };
+		AE39778E71801F02425A2E74 /* Pods_consultplusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AEFBC7264620A260AF0FE3D /* Pods_consultplusTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5410044729C889090012724B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5410042E29C889080012724B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5410043529C889080012724B;
+			remoteInfo = consultplus;
+		};
+		5410045129C889090012724B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5410042E29C889080012724B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5410043529C889080012724B;
+			remoteInfo = consultplus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09E732B8214C65C624D74FBF /* Pods-consultplus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-consultplus.release.xcconfig"; path = "Target Support Files/Pods-consultplus/Pods-consultplus.release.xcconfig"; sourceTree = "<group>"; };
+		0EBA8060586435E4E98AB37F /* Pods-consultplusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-consultplusTests.debug.xcconfig"; path = "Target Support Files/Pods-consultplusTests/Pods-consultplusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D484B1AC09B143AA33D0113 /* Pods_consultplus_consultplusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_consultplus_consultplusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BB27C43EAB0E3F8E459564 /* Pods-consultplus-consultplusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-consultplus-consultplusUITests.debug.xcconfig"; path = "Target Support Files/Pods-consultplus-consultplusUITests/Pods-consultplus-consultplusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2877CD6145B388DB03A3DE1E /* Pods-consultplusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-consultplusTests.release.xcconfig"; path = "Target Support Files/Pods-consultplusTests/Pods-consultplusTests.release.xcconfig"; sourceTree = "<group>"; };
+		4B6345EE1C75121ED595136B /* Pods-consultplus-consultplusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-consultplus-consultplusUITests.release.xcconfig"; path = "Target Support Files/Pods-consultplus-consultplusUITests/Pods-consultplus-consultplusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5408AFAC29CA638900B2795B /* MainActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActivityView.swift; sourceTree = "<group>"; };
+		5410043629C889080012724B /* consultplus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = consultplus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5410043929C889080012724B /* consultplusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consultplusApp.swift; sourceTree = "<group>"; };
+		5410043B29C889080012724B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5410043D29C889090012724B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5410044029C889090012724B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5410044629C889090012724B /* consultplusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = consultplusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5410044A29C889090012724B /* consultplusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consultplusTests.swift; sourceTree = "<group>"; };
+		5410045029C889090012724B /* consultplusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = consultplusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5410045429C889090012724B /* consultplusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consultplusUITests.swift; sourceTree = "<group>"; };
+		5410045629C889090012724B /* consultplusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = consultplusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5429C60E29C8C289008BE8EC /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		5429C61029C8C3F9008BE8EC /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		5438A6062A16D76100BA2591 /* MyRdvUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRdvUIView.swift; sourceTree = "<group>"; };
+		5438A60A2A17218000BA2591 /* SplashScreenUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenUIView.swift; sourceTree = "<group>"; };
+		54A8D9202A127F7200844D8A /* ConfirmRdvUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmRdvUIView.swift; sourceTree = "<group>"; };
+		54AA452B29FA289C006ED6FF /* BookingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingModel.swift; sourceTree = "<group>"; };
+		54B8434629CB454C0027C2B0 /* UpdateProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileView.swift; sourceTree = "<group>"; };
+		54C718CE2A17B6C000D78311 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		54C8781929CD293C00FC9B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		54DA354E29C8CD9700AB1339 /* ForgetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordView.swift; sourceTree = "<group>"; };
+		54EA463C29EE17400052527C /* HomeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUIView.swift; sourceTree = "<group>"; };
+		54EA463E29EE37F20052527C /* DoctorsListUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsListUIView.swift; sourceTree = "<group>"; };
+		54EA464029EE3D1F0052527C /* DoctorProfilUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorProfilUIView.swift; sourceTree = "<group>"; };
+		54EA464229EE4BD10052527C /* BookingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingUIView.swift; sourceTree = "<group>"; };
+		54F7757E29CA0A1500EA2EA7 /* ApiManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManger.swift; sourceTree = "<group>"; };
+		54F7758129CA0E4800EA2EA7 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		54FA49632A04898400CD5335 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		54FA49652A0489F200CD5335 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5788AF3192FF4C7C17DA1CA9 /* Pods_consultplus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_consultplus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AEFBC7264620A260AF0FE3D /* Pods_consultplusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_consultplusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE763C448FE303CA0795F57 /* Pods-consultplus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-consultplus.debug.xcconfig"; path = "Target Support Files/Pods-consultplus/Pods-consultplus.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5410043329C889080012724B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E1A0DA29F89A7C00823AE2 /* URLImage in Frameworks */,
+				54E1A0DC29F89A7C00823AE2 /* URLImageStore in Frameworks */,
+				63F2A9E39DEE2077D651358F /* Pods_consultplus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5410044329C889090012724B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE39778E71801F02425A2E74 /* Pods_consultplusTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5410044D29C889090012724B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F88989107D04470ACBEC2A8 /* Pods_consultplus_consultplusUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C1B40861E1C95C0D1273958 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5788AF3192FF4C7C17DA1CA9 /* Pods_consultplus.framework */,
+				1D484B1AC09B143AA33D0113 /* Pods_consultplus_consultplusUITests.framework */,
+				6AEFBC7264620A260AF0FE3D /* Pods_consultplusTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5410042D29C889080012724B = {
+			isa = PBXGroup;
+			children = (
+				5410043829C889080012724B /* consultplus */,
+				5410044929C889090012724B /* consultplusTests */,
+				5410045329C889090012724B /* consultplusUITests */,
+				5410043729C889080012724B /* Products */,
+				ADDCFCED3F3D33FBAA909ADD /* Pods */,
+				2C1B40861E1C95C0D1273958 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5410043729C889080012724B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5410043629C889080012724B /* consultplus.app */,
+				5410044629C889090012724B /* consultplusTests.xctest */,
+				5410045029C889090012724B /* consultplusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5410043829C889080012724B /* consultplus */ = {
+			isa = PBXGroup;
+			children = (
+				54C718CD2A17B6A300D78311 /* Utils */,
+				54C8781929CD293C00FC9B36 /* Info.plist */,
+				54F7758029CA0D0300EA2EA7 /* Models */,
+				54F7757D29CA098500EA2EA7 /* ApiManger */,
+				5429C60D29C8C259008BE8EC /* Screens */,
+				5410043929C889080012724B /* consultplusApp.swift */,
+				5410043B29C889080012724B /* ContentView.swift */,
+				5410043D29C889090012724B /* Assets.xcassets */,
+				5410043F29C889090012724B /* Preview Content */,
+				54FA49642A04898400CD5335 /* Localizable.strings */,
+			);
+			path = consultplus;
+			sourceTree = "<group>";
+		};
+		5410043F29C889090012724B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5410044029C889090012724B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5410044929C889090012724B /* consultplusTests */ = {
+			isa = PBXGroup;
+			children = (
+				5410044A29C889090012724B /* consultplusTests.swift */,
+			);
+			path = consultplusTests;
+			sourceTree = "<group>";
+		};
+		5410045329C889090012724B /* consultplusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5410045429C889090012724B /* consultplusUITests.swift */,
+				5410045629C889090012724B /* consultplusUITestsLaunchTests.swift */,
+			);
+			path = consultplusUITests;
+			sourceTree = "<group>";
+		};
+		5429C60D29C8C259008BE8EC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5429C60E29C8C289008BE8EC /* SignUpView.swift */,
+				5429C61029C8C3F9008BE8EC /* SignInView.swift */,
+				54DA354E29C8CD9700AB1339 /* ForgetPasswordView.swift */,
+				5408AFAC29CA638900B2795B /* MainActivityView.swift */,
+				54B8434629CB454C0027C2B0 /* UpdateProfileView.swift */,
+				54EA463C29EE17400052527C /* HomeUIView.swift */,
+				54EA463E29EE37F20052527C /* DoctorsListUIView.swift */,
+				54EA464029EE3D1F0052527C /* DoctorProfilUIView.swift */,
+				54EA464229EE4BD10052527C /* BookingUIView.swift */,
+				54A8D9202A127F7200844D8A /* ConfirmRdvUIView.swift */,
+				5438A6062A16D76100BA2591 /* MyRdvUIView.swift */,
+				5438A60A2A17218000BA2591 /* SplashScreenUIView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		54C718CD2A17B6A300D78311 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				54C718CE2A17B6C000D78311 /* Notification.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		54F7757D29CA098500EA2EA7 /* ApiManger */ = {
+			isa = PBXGroup;
+			children = (
+				54F7757E29CA0A1500EA2EA7 /* ApiManger.swift */,
+			);
+			path = ApiManger;
+			sourceTree = "<group>";
+		};
+		54F7758029CA0D0300EA2EA7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				54F7758129CA0E4800EA2EA7 /* UserModel.swift */,
+				54AA452B29FA289C006ED6FF /* BookingModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ADDCFCED3F3D33FBAA909ADD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABE763C448FE303CA0795F57 /* Pods-consultplus.debug.xcconfig */,
+				09E732B8214C65C624D74FBF /* Pods-consultplus.release.xcconfig */,
+				27BB27C43EAB0E3F8E459564 /* Pods-consultplus-consultplusUITests.debug.xcconfig */,
+				4B6345EE1C75121ED595136B /* Pods-consultplus-consultplusUITests.release.xcconfig */,
+				0EBA8060586435E4E98AB37F /* Pods-consultplusTests.debug.xcconfig */,
+				2877CD6145B388DB03A3DE1E /* Pods-consultplusTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5410043529C889080012724B /* consultplus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5410045A29C889090012724B /* Build configuration list for PBXNativeTarget "consultplus" */;
+			buildPhases = (
+				1ED86B1655691CEA65EBA6C4 /* [CP] Check Pods Manifest.lock */,
+				5410043229C889080012724B /* Sources */,
+				5410043329C889080012724B /* Frameworks */,
+				5410043429C889080012724B /* Resources */,
+				E904A101A8D425434514876C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = consultplus;
+			packageProductDependencies = (
+				54E1A0D929F89A7C00823AE2 /* URLImage */,
+				54E1A0DB29F89A7C00823AE2 /* URLImageStore */,
+			);
+			productName = consultplus;
+			productReference = 5410043629C889080012724B /* consultplus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5410044529C889090012724B /* consultplusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5410045D29C889090012724B /* Build configuration list for PBXNativeTarget "consultplusTests" */;
+			buildPhases = (
+				4F46E10F5EB45716ACC8707F /* [CP] Check Pods Manifest.lock */,
+				5410044229C889090012724B /* Sources */,
+				5410044329C889090012724B /* Frameworks */,
+				5410044429C889090012724B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5410044829C889090012724B /* PBXTargetDependency */,
+			);
+			name = consultplusTests;
+			productName = consultplusTests;
+			productReference = 5410044629C889090012724B /* consultplusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5410044F29C889090012724B /* consultplusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5410046029C889090012724B /* Build configuration list for PBXNativeTarget "consultplusUITests" */;
+			buildPhases = (
+				ED917128D1B9D04BB8EF154D /* [CP] Check Pods Manifest.lock */,
+				5410044C29C889090012724B /* Sources */,
+				5410044D29C889090012724B /* Frameworks */,
+				5410044E29C889090012724B /* Resources */,
+				14A10466A40D390F61115E4A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5410045229C889090012724B /* PBXTargetDependency */,
+			);
+			name = consultplusUITests;
+			productName = consultplusUITests;
+			productReference = 5410045029C889090012724B /* consultplusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5410042E29C889080012724B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					5410043529C889080012724B = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					5410044529C889090012724B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 5410043529C889080012724B;
+					};
+					5410044F29C889090012724B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 5410043529C889080012724B;
+					};
+				};
+			};
+			buildConfigurationList = 5410043129C889080012724B /* Build configuration list for PBXProject "consultplus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = 5410042D29C889080012724B;
+			packageReferences = (
+				54E1A0D829F89A7C00823AE2 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
+			productRefGroup = 5410043729C889080012724B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5410043529C889080012724B /* consultplus */,
+				5410044529C889090012724B /* consultplusTests */,
+				5410044F29C889090012724B /* consultplusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5410043429C889080012724B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5410044129C889090012724B /* Preview Assets.xcassets in Resources */,
+				54FA49622A04898400CD5335 /* Localizable.strings in Resources */,
+				5410043E29C889090012724B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5410044429C889090012724B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5410044E29C889090012724B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14A10466A40D390F61115E4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-consultplus-consultplusUITests/Pods-consultplus-consultplusUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-consultplus-consultplusUITests/Pods-consultplus-consultplusUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-consultplus-consultplusUITests/Pods-consultplus-consultplusUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1ED86B1655691CEA65EBA6C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-consultplus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F46E10F5EB45716ACC8707F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-consultplusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E904A101A8D425434514876C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-consultplus/Pods-consultplus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-consultplus/Pods-consultplus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-consultplus/Pods-consultplus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED917128D1B9D04BB8EF154D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-consultplus-consultplusUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5410043229C889080012724B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A8D9212A127F7200844D8A /* ConfirmRdvUIView.swift in Sources */,
+				54F7757F29CA0A1500EA2EA7 /* ApiManger.swift in Sources */,
+				54C718CF2A17B6C000D78311 /* Notification.swift in Sources */,
+				54F7758229CA0E4800EA2EA7 /* UserModel.swift in Sources */,
+				54DA354F29C8CD9700AB1339 /* ForgetPasswordView.swift in Sources */,
+				54EA464129EE3D1F0052527C /* DoctorProfilUIView.swift in Sources */,
+				5438A60B2A17218000BA2591 /* SplashScreenUIView.swift in Sources */,
+				5410043C29C889080012724B /* ContentView.swift in Sources */,
+				5429C60F29C8C289008BE8EC /* SignUpView.swift in Sources */,
+				5438A6072A16D76100BA2591 /* MyRdvUIView.swift in Sources */,
+				5429C61129C8C3F9008BE8EC /* SignInView.swift in Sources */,
+				54EA464329EE4BD10052527C /* BookingUIView.swift in Sources */,
+				5408AFAD29CA638900B2795B /* MainActivityView.swift in Sources */,
+				54EA463D29EE17400052527C /* HomeUIView.swift in Sources */,
+				54EA463F29EE37F20052527C /* DoctorsListUIView.swift in Sources */,
+				54AA452C29FA289C006ED6FF /* BookingModel.swift in Sources */,
+				5410043A29C889080012724B /* consultplusApp.swift in Sources */,
+				54B8434729CB454C0027C2B0 /* UpdateProfileView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5410044229C889090012724B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5410044B29C889090012724B /* consultplusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5410044C29C889090012724B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5410045529C889090012724B /* consultplusUITests.swift in Sources */,
+				5410045729C889090012724B /* consultplusUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5410044829C889090012724B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5410043529C889080012724B /* consultplus */;
+			targetProxy = 5410044729C889090012724B /* PBXContainerItemProxy */;
+		};
+		5410045229C889090012724B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5410043529C889080012724B /* consultplus */;
+			targetProxy = 5410045129C889090012724B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54FA49642A04898400CD5335 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54FA49632A04898400CD5335 /* en */,
+				54FA49652A0489F200CD5335 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5410045829C889090012724B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5410045929C889090012724B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5410045B29C889090012724B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE763C448FE303CA0795F57 /* Pods-consultplus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"consultplus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = consultplus/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "use this to unlock appliation";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exemple.consultplus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5410045C29C889090012724B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E732B8214C65C624D74FBF /* Pods-consultplus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"consultplus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = consultplus/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "use this to unlock appliation";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exemple.consultplus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5410045E29C889090012724B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EBA8060586435E4E98AB37F /* Pods-consultplusTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exemple.consultplusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/consultplus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/consultplus";
+			};
+			name = Debug;
+		};
+		5410045F29C889090012724B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2877CD6145B388DB03A3DE1E /* Pods-consultplusTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exemple.consultplusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/consultplus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/consultplus";
+			};
+			name = Release;
+		};
+		5410046129C889090012724B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27BB27C43EAB0E3F8E459564 /* Pods-consultplus-consultplusUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exemple.consultplusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = consultplus;
+			};
+			name = Debug;
+		};
+		5410046229C889090012724B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6345EE1C75121ED595136B /* Pods-consultplus-consultplusUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.exemple.consultplusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = consultplus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5410043129C889080012724B /* Build configuration list for PBXProject "consultplus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5410045829C889090012724B /* Debug */,
+				5410045929C889090012724B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5410045A29C889090012724B /* Build configuration list for PBXNativeTarget "consultplus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5410045B29C889090012724B /* Debug */,
+				5410045C29C889090012724B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5410045D29C889090012724B /* Build configuration list for PBXNativeTarget "consultplusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5410045E29C889090012724B /* Debug */,
+				5410045F29C889090012724B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5410046029C889090012724B /* Build configuration list for PBXNativeTarget "consultplusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5410046129C889090012724B /* Debug */,
+				5410046229C889090012724B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		54E1A0D829F89A7C00823AE2 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		54E1A0D929F89A7C00823AE2 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54E1A0D829F89A7C00823AE2 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		54E1A0DB29F89A7C00823AE2 /* URLImageStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 54E1A0D829F89A7C00823AE2 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImageStore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5410042E29C889080012724B /* Project object */;
+}
